@@ -1,0 +1,42 @@
+{
+  "name": "tiles",
+  "version": "1.0.0",
+  "description": "Примерочная плитки",
+  "author": "Скляренко Влад",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.4.1",
+    "@nuxtjs/font-awesome": "^1.0.3",
+    "@nuxtjs/proxy": "^1.3.1",
+    "axios": "^0.18.0",
+    "d3": "^5.9.2",
+    "npm": "^6.4.1",
+    "nuxt": "^2.5.1",
+    "nuxt-edge": "^2.4.0-25718324.4eff50f",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.5.0",
+    "babel-eslint": "^10.0.1",
+    "coffee-loader": "^0.9.0",
+    "coffeescript": "^2.3.2",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.10.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.1.0",
+    "vue-my-photos": "^1.0.3",
+    "vueperslides": "^1.15.0"
+  }
+}
